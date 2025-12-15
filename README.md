@@ -1,16 +1,43 @@
-# contact_app_gui
+# flutter-bottom-nav-multi-page
 
-A new Flutter project.
+## About
+This is a Flutter application that demonstrates a Bottom Navigation Bar with multiple pages.
+The app includes Contacts and Gallery pages and shows how to switch between screens smoothly.
 
-## Getting Started
+## Features
+- Bottom Navigation Bar with multiple pages
+- Contacts page using ListView and ListTile
+- Search bar in AppBar
+- Gallery page using GridView with network images
+- Swipeable images using PageView
+- Navigation Drawer with menu options
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- Flutter
+- Dart
+- Material Design
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
+- main.dart
+- contact_page.dart
+- gallery.dart
+- other UI pages
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to Run
+- Clone the repository
+- Run flutter pub get
+- Run flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Learning Purpose
+This project helps in learning Bottom Navigation Bar, page switching, ListView, GridView,
+Drawer usage, and basic Flutter UI design.
+
+## Future Scope
+- Add full screen image preview
+- Improve UI with animations
+- Add more pages
+- Connect with backend or Firebase
+
+## Author
+Ritik Rana  
+MCA Student | Flutter Learner
