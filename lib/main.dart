@@ -1,4 +1,5 @@
 import 'package:contact_app_gui/contact_page.dart';
+import 'package:contact_app_gui/gallery.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class _MyAppState extends State<MyApp> {
     ContactPage(),
     Center(child: Text("Message page is coming soon")),
     Center(child: Text("Camera page is coming soon")),
-    Center(child: Text("Gallery page is coming soon")),
+    Gallery(),
     Center(child: Text("Browser page is coming soon")),
   ];
 
@@ -31,17 +32,17 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           backgroundColor: Colors.deepPurple,
           centerTitle: true,
-          title: const Text(
-            "Contact Application",
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-            ),
-          ),
+          // title: const Text(
+          //   "Contact Application",
+          //   style: TextStyle(
+          //     fontSize: 20,
+          //     fontWeight: FontWeight.bold,
+          //     color: Colors.white,
+          //   ),
+          // ),
         ),
 
-        body: pages[myIndex], 
+        body: pages[myIndex],
 
         bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
